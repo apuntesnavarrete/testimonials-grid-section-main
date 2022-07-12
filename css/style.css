@@ -19,6 +19,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
+    background-color: var(--Light-grayish-blue);
 
 }
 .content_card{
@@ -26,14 +27,58 @@ body{
     display: grid;
     grid-template-columns: 330px;
     grid-template-rows: 445px 240px 220px 385px 440px;
-    border: 1px solid greenyellow;
     gap: 25px;
 }
 .card{
-    border: 1px solid tomato;
     padding: 28px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
 }
 
+.card_img{
+    border-radius: 50%;
+    border: 1px solid var(--White);
+    width: 30px;
+}
+.card_top{
+    display: flex;
+}
+.card_name{
+    color: var(--Light-grayish-blue);
+}
+.card_description{
+    margin-left: 20px;
+
+}
+.card_verified{
+    color: var(--Light-gray);
+
+}
+.card_content{
+    font-size: 1.4em;
+    margin: 20px 0;
+}
+.card_bottom{
+    color: var(--Light-gray);
+}
+.one{
+    background-color: var(--Moderate-violet);
+}
+
+.two{
+    background-color: var(--Very-dark-grayish-blue);
+    color: var(--White);
+}
+.three{
+    background-color: var(--White);
+}
+.four{
+    background-color: var(--Very-dark-blackish-blue);
+}
+.five{
+    background-color: var(--White);
+}
 @media (min-width: 1100px) {
     body{
 
